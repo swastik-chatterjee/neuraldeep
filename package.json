@@ -3,10 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "nuxt": "^3.11.0",
