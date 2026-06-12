@@ -1,0 +1,27 @@
+# Nuxt.js / Nitro specific
+.output/
+.nuxt/
+.cache/
+dist/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.nuxt
+bun.lock
+
+# Environment Secrets
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*s
